@@ -1,0 +1,61 @@
+{
+   
+    "SpriteImg": "/doorSprite_01.png",
+    "DoorConfig":{
+        "sprites":{
+            "openDoor":{
+                "width": 54,
+                "height": 87,
+                "fps":5,
+                "stopLastFrame":true,
+                "scale":0.5,
+                "frameCount":5,
+                "startFrame":0
+            },
+            "closedDoor":{
+                "width": 54,
+                "height": 87,
+                "fps":5,
+                "stopLastFrame":true,
+                "scale":0.5,
+                "frameCount":5,
+                "startFrame":5
+            }
+
+        },
+        "Doors":[
+            {
+               "id": 1,
+               "doorName": "Illustrations" ,
+               "link": "https://mackattacksart.com/portfolio/illustrations/"
+           },
+           {
+            "id": 2,
+            "doorName": "Animations",
+            "link": "https://mackattacksart.com/portfolio/animation-portfolio/"
+           },
+           {
+            "id": 3,
+            "doorName": "Resume",
+            "link": "https://mackattacksart.com/portfolio/resume-cv/"
+           },
+           {
+            "id": 4,
+            "doorName": "Commssions",
+            "link": "https://mackattacksart.com/portfolio/commissions/"
+           },
+           {
+            "id": 5,
+            "doorName": "Markets",
+            "link": "https://mackattacksart.com/portfolio/markets/"
+           },
+           {
+            "id": 6,
+            "doorName": "Gallery Work",
+            "link": "https://mackattacksart.com/portfolio/galleries/"
+           }
+       ]
+    }
+    
+
+}

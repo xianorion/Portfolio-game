@@ -1,0 +1,41 @@
+/* SpriteAnimation.css */
+.sprite-animation {
+    width: 58px; /* Set the width of your sprite */
+    height: 87px; /* Set the height of your sprite */
+    
+  }
+  
+  .open-door-sprite {
+    width: 100%; /* Ensure the sprite takes up the full container width */
+    height: 100%; /* Ensure the sprite takes up the full container height */
+    background-image: url('./../../public/images/doorSprite_01.png');
+    background-size: cover;
+    animation: animateSprite 0.5s steps(5) 1 forwards; /* Adjust the timing and steps based on your sprite sheet */
+  }
+  
+  @keyframes animateSprite {
+    from {
+      background-position: 0px 0;
+    }
+    to {
+      background-position: 275px 0; /* Adjust based on the total width of your sprite sheet */
+    }
+  }
+  
+  .closed-door-sprite {
+    width: 100%; /* Ensure the sprite takes up the full container width */
+    height: 100%; /* Ensure the sprite takes up the full container height */
+    background-image: url('./../../public/images/doorSprite_01.png');
+    background-size: cover;
+    animation: animateSpriteClosed 0.5s steps(4) 1 forwards; /* Adjust the timing and steps based on your sprite sheet */
+  }
+  
+  @keyframes animateSpriteClosed {
+    from {
+      background-position: 275px 0;
+    }
+    to {
+      background-position: 486px 0; /* Adjust based on the total width of your sprite sheet */
+    }
+  }
+  
