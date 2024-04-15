@@ -12,6 +12,15 @@
     background-size: cover;
     animation: animateSprite 0.5s steps(5) 1 forwards; /* Adjust the timing and steps based on your sprite sheet */
   }
+
+
+  .open-door-sprite2 {
+    width: 100%; /* Ensure the sprite takes up the full container width */
+    height: 100%; /* Ensure the sprite takes up the full container height */
+    background-image: url('./../../public/images/doorSprite_02.png');
+    background-size: cover;
+    animation: animateSprite 0.5s steps(5) 1 forwards; /* Adjust the timing and steps based on your sprite sheet */
+  }
   
   @keyframes animateSprite {
     from {
@@ -29,7 +38,14 @@
     background-size: cover;
     animation: animateSpriteClosed 0.5s steps(4) 1 forwards; /* Adjust the timing and steps based on your sprite sheet */
   }
-  
+
+   .closed-door-sprite2 {
+    width: 100%; /* Ensure the sprite takes up the full container width */
+    height: 100%; /* Ensure the sprite takes up the full container height */
+    background-image: url('./../../public/images/doorSprite_02.png');
+    background-size: cover;
+    animation: animateSpriteClosed 0.5s steps(4) 1 forwards; /* Adjust the timing and steps based on your sprite sheet */
+  }
   @keyframes animateSpriteClosed {
     from {
       background-position: 275px 0;
@@ -39,3 +55,102 @@
     }
   }
   
+
+  .character-sprite{
+    width: 80px; /* Set the width of your sprite */
+    height:80px; /* Set the height of your sprite */
+  }
+
+  .walking-mack-sprite{
+    width: 100%; /* Ensure the sprite takes up the full container width */
+    height: 100%; /* Ensure the sprite takes up the full container height */
+    background-image: url('./../../public/images/MackSpriteSheet_02.png') ;
+    animation: walking-side-sprite .5s steps(3) infinite; /* Adjust the timing and steps based on your sprite sheet */
+
+  }
+
+  @keyframes walking-side-sprite {
+
+    from {
+      background-position: 0px 165px;
+    }
+    to {
+      background-position: 240px 165px; /* Adjust based on the total width of your sprite sheet */
+    }
+    
+  }
+
+  .idle-mack-sprite{
+    width: 100%; /* Ensure the sprite takes up the full container width */
+    height: 100%; /* Ensure the sprite takes up the full container height */
+    background-image: url('./../../public/images/MackSpriteSheet.png');
+    background-repeat: no-repeat;
+    animation: idle-sprite 0.1s steps(1);  /*Adjust the timing and steps based on your sprite sheet */
+
+  }
+
+  @keyframes idle-sprite {
+
+    from {
+      background-position: 0px 0;
+    }
+    to {
+      background-position: 0px 0; /* Adjust based on the total width of your sprite sheet */
+    }
+    
+  }
+
+  @keyframes idle-side-sprite {
+
+    from {
+      background-position: 0px 160px;
+    }
+    to {
+      background-position: 0px 160px; /* Adjust based on the total width of your sprite sheet */
+    }
+    
+  }
+
+  @keyframes idle-back-sprite {
+
+    from {
+      background-position: 0px 80px;
+    }
+    to {
+      background-position: 0px 80px; /* Adjust based on the total width of your sprite sheet */
+    }
+    
+  }
+
+
+ 
+
+  @keyframes walking-front-sprite {
+
+    from {
+      background-position: 0px 240px;
+    }
+    to {
+      background-position: 160px 240px; /* Adjust based on the total width of your sprite sheet */
+    }
+    
+  }
+
+  .back-mack-sprite{
+    width: 100%; /* Ensure the sprite takes up the full container width */
+    height: 100%; /* Ensure the sprite takes up the full container height */
+    background-image: url('./../../public/images/MackSpriteSheet_02.png');
+    animation: walking-back-sprite 0.4s steps(2) infinite;  /*Adjust the timing and steps based on your sprite sheet */
+
+  }
+
+  @keyframes walking-back-sprite {
+
+    from {
+      background-position: 0px -400px;
+    }
+    to {
+      background-position: -160px -400px; /* Adjust based on the total width of your sprite sheet */
+    }
+    
+  }

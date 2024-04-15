@@ -27,32 +27,39 @@
             {
                "id": 1,
                "doorName": "Illustrations" ,
-               "link": "https://mackattacksart.com/portfolio/illustrations/"
+               "link": "https://mackattacksart.com/portfolio/illustrations/",
+               "spriteFile": "2"
+
            },
            {
             "id": 2,
             "doorName": "Animations",
-            "link": "https://mackattacksart.com/portfolio/animation-portfolio/"
+            "link": "https://mackattacksart.com/portfolio/animation-portfolio/",
+            "spriteFile": ""
            },
            {
             "id": 3,
             "doorName": "Resume",
-            "link": "https://mackattacksart.com/portfolio/resume-cv/"
+            "link": "https://mackattacksart.com/portfolio/resume-cv/",
+            "spriteFile": ""
            },
            {
             "id": 4,
             "doorName": "Commssions",
-            "link": "https://mackattacksart.com/portfolio/commissions/"
+            "link": "https://mackattacksart.com/portfolio/commissions/",
+            "spriteFile": ""
            },
            {
             "id": 5,
             "doorName": "Markets",
-            "link": "https://mackattacksart.com/portfolio/markets/"
+            "link": "https://mackattacksart.com/portfolio/markets/",
+            "spriteFile": ""
            },
            {
             "id": 6,
             "doorName": "Gallery Work",
-            "link": "https://mackattacksart.com/portfolio/galleries/"
+            "link": "https://mackattacksart.com/portfolio/galleries/",
+            "spriteFile": ""
            }
        ]
     }

@@ -2,16 +2,26 @@
 
 .doors {
  display: flex;
- scale: 100%;
- width:30%;
+ margin: 0; 
+ padding: 0; 
  overflow-x: hidden;
  white-space: nowrap;
  position: absolute;
  top: 50%;
  left: 50%;
  transform: translate(-50%, -50%);
+ z-index: 0;
 }
-
+/* .doors {
+    display: flex;
+    margin: 0; 
+    padding: 0; 
+    overflow: hidden; 
+    position: absolute;
+    transform: translate(50%, -0%);
+    z-index: 0;
+   } */
+   
 .door {
     padding: 10px;
 }
