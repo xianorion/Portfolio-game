@@ -49,7 +49,7 @@ const Gallery = () =>{
     positionX={position}
     />
     <div className='doors' tabIndex={0}  ref={(scrollContainer)}>
-{doorObjs.map((door) =><Door  key={door.id} name={door.doorName} link={door.link} spriteFile={door.spriteFile} isActive={(activeDoor+1)==door.id}></Door>)}
+{doorObjs.map((door) =><Door  key={door.id} name={door.doorName} link={door.link} spriteFile={door.spriteFile} isActive={(activeDoor+1)===door.id}></Door>)}
 </div>
 
 

@@ -28,14 +28,14 @@
                "id": 1,
                "doorName": "Illustrations" ,
                "link": "https://mackattacksart.com/portfolio/illustrations/",
-               "spriteFile": "2"
+               "spriteFile": "draw"
 
            },
            {
             "id": 2,
             "doorName": "Animations",
             "link": "https://mackattacksart.com/portfolio/animation-portfolio/",
-            "spriteFile": ""
+            "spriteFile": "anime"
            },
            {
             "id": 3,

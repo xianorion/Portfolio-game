@@ -13,11 +13,18 @@
     animation: animateSprite 0.5s steps(5) 1 forwards; /* Adjust the timing and steps based on your sprite sheet */
   }
 
-
-  .open-door-sprite2 {
+  .open-door-spritedraw {
     width: 100%; /* Ensure the sprite takes up the full container width */
     height: 100%; /* Ensure the sprite takes up the full container height */
-    background-image: url('./../../public/images/doorSprite_02.png');
+    background-image: url('./../../public/images/doorSprite_draw.png');
+    background-size: cover;
+    animation: animateSprite 0.5s steps(5) 1 forwards; /* Adjust the timing and steps based on your sprite sheet */
+  }
+
+  .open-door-spriteanime {
+    width: 100%; /* Ensure the sprite takes up the full container width */
+    height: 100%; /* Ensure the sprite takes up the full container height */
+    background-image: url('./../../public/images/doorSprite_anime.png');
     background-size: cover;
     animation: animateSprite 0.5s steps(5) 1 forwards; /* Adjust the timing and steps based on your sprite sheet */
   }
@@ -39,10 +46,18 @@
     animation: animateSpriteClosed 0.5s steps(4) 1 forwards; /* Adjust the timing and steps based on your sprite sheet */
   }
 
-   .closed-door-sprite2 {
+  .closed-door-spritedraw {
     width: 100%; /* Ensure the sprite takes up the full container width */
     height: 100%; /* Ensure the sprite takes up the full container height */
-    background-image: url('./../../public/images/doorSprite_02.png');
+    background-image: url('./../../public/images/doorSprite_draw.png');
+    background-size: cover;
+    animation: animateSpriteClosed 0.5s steps(4) 1 forwards; /* Adjust the timing and steps based on your sprite sheet */
+  }
+
+   .closed-door-spriteanime {
+    width: 100%; /* Ensure the sprite takes up the full container width */
+    height: 100%; /* Ensure the sprite takes up the full container height */
+    background-image: url('./../../public/images/doorSprite_anime.png');
     background-size: cover;
     animation: animateSpriteClosed 0.5s steps(4) 1 forwards; /* Adjust the timing and steps based on your sprite sheet */
   }

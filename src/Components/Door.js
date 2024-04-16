@@ -2,8 +2,8 @@ import React, { useState, useEffect} from 'react';
 import  "../Styles/GalleryStyle.css"
 import  '../Styles/SpriteAnimation.css';
 
-const Door = ({name, link, spriteFile, isActive}) =>{
-
+const Door = ({ name, link, spriteFile, isActive}) =>{
+    
     useEffect(()=>{
         setDoorOpen(isActive);
     },
